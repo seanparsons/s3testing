@@ -10,6 +10,7 @@ export function FlexRow({ children, style, ...props }) {
         flexDirection: 'row',
         ...style,
       }}
+      data-uid='1d0'
     >
       {children}
     </div>
@@ -26,6 +27,7 @@ export function FlexCol({ children, style, ...props }) {
         flexDirection: 'column',
         ...style,
       }}
+      data-uid='d36'
     >
       {children}
     </div>
@@ -46,6 +48,7 @@ export function TwoColumnGrid({
         gridTemplateColumns: 'repeat(2, 1fr)',
         ...style,
       }}
+      data-uid='e9a'
     >
       {children}
     </div>
@@ -68,6 +71,7 @@ export function ThreeColumnGrid({
         hieght: '100%',
         ...style,
       }}
+      data-uid='ba2'
     >
       {children}
     </div>
